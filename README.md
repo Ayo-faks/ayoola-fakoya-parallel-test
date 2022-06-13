@@ -19,7 +19,6 @@ To test and make inference on the sample video, run the following command:
 
 ```
    download model from https://drive.google.com/file/d/1ARidM3rYrJhYVvt1hJfHbYSFU05Be8_N/view?usp=sharing and put it in the same directory as this file
-   <!-- cd into ayoola-fakoya -->
    pip install requirements.txt
    python3 custom.py inference_parallel --weights=mask_rcnn_coco.h5 --video=deepsort_30sec.mp4
 
